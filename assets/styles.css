@@ -191,7 +191,7 @@ p{margin:0 0 1rem}
 .detail p{color:var(--muted);font-size:.86rem}
 .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:28px}
 .step{padding-top:16px;border-top:1px solid var(--line)}
-.step em{display:grid;place-items:center;width:42px;height:42px;margin-bottom:15px;border-radius:50%;background:#dfcfb6;font-style:normal;font-weight:700}
+.step .kicker{margin-bottom:10px}
 .step p{color:var(--muted);font-size:.86rem}
 
 .project-detail-hero{display:grid;grid-template-columns:.78fr 1.22fr;min-height:500px;background:var(--paper-soft)}
@@ -209,7 +209,7 @@ p{margin:0 0 1rem}
 .about-grid .portrait img{width:100%;height:100%;object-fit:cover}
 .about-copy{padding:36px 42px;background:#fff}
 .values-list{border-top:1px solid var(--line)}
-.value-row{display:grid;grid-template-columns:.65fr 1.35fr auto;gap:24px;padding:20px 0;border-bottom:1px solid var(--line)}
+.value-row{display:grid;grid-template-columns:.7fr 1.3fr;gap:28px;padding:22px 0;border-bottom:1px solid var(--line)}
 .value-row strong{font-family:var(--serif);font-size:1.3rem;font-weight:400}.value-row span{color:var(--muted);font-size:.86rem}
 
 .form-shell{display:grid;grid-template-columns:.75fr 1.25fr;gap:58px}
