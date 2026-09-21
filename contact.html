@@ -1,1 +1,43 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Get an Estimate · Can-Do Remodeling</title><link rel="stylesheet" href="assets/styles.css"></head><body><div data-site-header></div><main><section class="page-hero"><div class="wrap"><div><p class="kicker">Start a conversation</p><h1>Get an Estimate</h1></div><p>This is a redesign demo form only and does not send data. The production version would connect to Can-Do’s preferred email or CRM.</p></div></section><section class="section"><div class="wrap split"><div class="intro"><p class="kicker">Tell us about the project</p><h2>A simple first step.</h2><p>Share the type of work, location and a short description. Photos can be added in the production version.</p><p><strong>Phone:</strong><br><a href="tel:+14144052718">(414) 405-2718</a></p><p><strong>Address:</strong><br>2510B S. Kinnickinnic Ave<br>Milwaukee, WI 53207</p></div><form onsubmit="event.preventDefault();alert('Demo only — no information was sent.')" class="form-grid"><div class="field"><label>Name</label><input required></div><div class="field"><label>Phone</label><input type="tel"></div><div class="field"><label>Email</label><input type="email" required></div><div class="field"><label>Project type</label><select><option>Remodeling</option><option>Restoration</option><option>Carpentry</option><option>Painting / Drywall</option><option>Doors / Windows</option><option>Other</option></select></div><div class="field full"><label>Tell us about your project</label><textarea required></textarea></div><div class="field full"><button class="btn" type="submit">Request an Estimate →</button><p class="notice">Unofficial demo: this form is intentionally not connected to Can-Do.</p></div></form></div></section></main><div data-site-footer></div><script src="assets/site.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Get an Estimate · Can-Do Remodeling</title>
+<meta name="description" content="Unofficial Can-Do Remodeling estimate-form redesign concept.">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body><div data-site-header></div>
+<main>
+  <section class="page-hero page-hero--split">
+    <div class="page-hero-copy">
+      <p class="kicker">Start a conversation</p>
+      <h1>Get an Estimate</h1>
+      <p>A remodeling inquiry should feel simple. The production version can connect this form to Can-Do’s preferred email, CRM or scheduling workflow.</p>
+    </div>
+    <div class="page-hero-media"><img data-img="hero" alt="Can-Do bathroom project"></div>
+  </section>
+
+  <section class="section">
+    <div class="wrap form-shell">
+      <div class="intro">
+        <p class="kicker">Tell us about your project</p>
+        <h2>A clear first step.</h2>
+        <p>Share the type of work, location and a short description. A live version could also accept project photos and preferred contact times.</p>
+        <p><strong>Phone</strong><br><a href="tel:+14144052718">(414) 405-2718</a></p>
+        <p><strong>Address</strong><br>2510B S. Kinnickinnic Ave<br>Milwaukee, WI 53207</p>
+        <p class="notice">Demo note: this form intentionally does not send information.</p>
+      </div>
+      <form class="form-grid" onsubmit="event.preventDefault();alert('Demo only — no information was sent.')">
+        <div class="field"><label for="name">Name</label><input id="name" autocomplete="name" required></div>
+        <div class="field"><label for="phone">Phone</label><input id="phone" type="tel" autocomplete="tel"></div>
+        <div class="field"><label for="email">Email</label><input id="email" type="email" autocomplete="email" required></div>
+        <div class="field"><label for="zip">ZIP code</label><input id="zip" inputmode="numeric" autocomplete="postal-code"></div>
+        <div class="field full"><label for="type">Project type</label><select id="type"><option>Remodeling</option><option>Restoration</option><option>Carpentry</option><option>Interior Painting</option><option>Exterior Painting</option><option>Drywall</option><option>Doors & Windows</option><option>Other</option></select></div>
+        <div class="field full"><label for="message">Tell us about the project</label><textarea id="message" required></textarea></div>
+        <div class="field full"><button class="btn" type="submit">Request an Estimate →</button></div>
+      </form>
+    </div>
+  </section>
+</main>
+<div data-site-footer></div><script src="assets/site.js"></script></body></html>
